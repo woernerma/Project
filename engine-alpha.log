@@ -1,1 +1,1 @@
-[Thu May 18 10:55:26 CEST 2017][ERROR] Das Bild konnte nicht geladen werden: src/assets/SchlüsselGoldAusgeschnitten.jpeg (ImageLoader.java:51)
+[Fri May 26 10:25:12 CEST 2017][ERROR] Achtung! Das Objekt, bei dem der Einfluss der Schwerkraft gesetzt werden sollte, ist ein neutrales Objekt. Folglich macht der Aufruf dieser Methode keinen Sinn. Dafuer muesste das entsprechende Objekt ein Aktiv-Objekt sein! (NullClient.java:92)

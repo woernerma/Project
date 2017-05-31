@@ -4,23 +4,24 @@ import org.omg.CORBA.SystemException;
 /**
  * Created by manuel on 18.05.2017.
  */
-public class Person extends Bild {
+public class Person extends Zone {
     public Person(int xPos,int yPos) {
-        super(xPos,yPos,"src/assets/Hut.png");
+        super(xPos,yPos,72,71,"src/assets/Hut.png");
+        aktivMachen();
+        schwerkraftAktivSetzen(false);
 
     }
-    public static void moveForward(){
-        System.out.println("Forward");
-
+      void moveForward(){
+          bewegen(0,-1);
+        }
+      void moveBack(){
+          bewegen(0,1);
     }
-    public static void moveBack(){
-        System.out.println("Back");
+      void moveLeft() {
+          bewegen(-1,0);
     }
-    public static void moveLeft(){
-        System.out.println("Left");
-    }
-    public static void moveRight(){
-        System.out.println("Right");
+      void moveRight(){
+          bewegen(1,0);
     }
 
 
